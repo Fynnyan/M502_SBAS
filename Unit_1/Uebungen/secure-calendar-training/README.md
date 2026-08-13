@@ -43,7 +43,11 @@ npm run dev
 **Fragen:**
 
 - Welche Ausgabe erscheint im Terminal nach `npm install`?
+  
+  -> Mit pnpm gibt es den hinweis auf neue versionen für die Packete 
 - Gibt es bereits beim Install Hinweise auf Sicherheitsprobleme?
+
+  -> Ja, pnpm, npm gibt einen hineis zu bekannten vulnerabilities   
 
 ---
 
@@ -66,10 +70,19 @@ npm ls
 ### Zusatzfragen
 
 - Welche Packages sind **direkte** Dependencies (in `dependencies` bzw. `devDependencies` in `package.json`)?
+
+  -> Die welche selbst definiert wurden un im package.json definiert sind z.b. axios oder lodash
 - Welche Packages sind **transitive** Dependencies (werden von anderen Packages gezogen)?
+
+  -> Dependencies welche von den definierten Dependencies benötigt werden. z.b. benötigt `axios` die `follow-redirects` lib   
 - Was bedeutet der Hinweis `deduped`?
+  
+  -> Dedupliziert, die transitive Dependency wird von mehreren Dependecnies verwended, mechanismus von npm zur optimierung
+
 - Warum können auch transitive Dependencies ein Sicherheitsproblem darstellen, obwohl ihr sie nicht
   selbst eingebunden habt?
+
+  -> Können auch CVEs enthalten welche die Applikation beeinträchtigen.  
 
 ---
 
@@ -98,8 +111,12 @@ npm run audit
 ### Fragen
 
 - Welche Packages haben Sicherheitsprobleme?
+  -> Praktisch alle, axios am meisten.
 - Handelt es sich um **direkte** oder **transitive** Dependencies?
-- Welche **Severity**-Stufen werden angezeigt? (`critical`, `high`, `moderate`, `low`)
+
+  -> Hauptsächlich **direkte** dependencies
+- Welche **Severity**-Stufen werden angezeigt? 
+  -> 3 low | 29 moderate | 20 high
 - Welche Advisory-Informationen (CVE, GHSA) werden pro Finding aufgeführt?
 - Gibt es empfohlene Fixes in der Ausgabe?
 

@@ -1,0 +1,92 @@
+pnpm install
+
+Packages: +8 -7
+++++++++-------
+Progress: resolved 89, reused 67, downloaded 0, added 0, done
+
+dependencies:
+- axios 0.21.4
++ axios 0.21.1 (1.19.0 is available)
+- lodash 4.18.1
++ lodash 4.17.19 (4.18.1 is available)
+- moment 2.30.1
++ moment 2.29.1 (2.30.1 is available)
+- nanoid 3.3.18
++ nanoid 3.1.25 (6.0.1 is available)
+
+devDependencies:
+- vite 4.5.14
++ vite 4.3.9 (8.2.1 is available)
+
+Done in 2.8s using pnpm v11.4.0
+
+---
+pnpm la
+Legend: production dependency, optional only, dev only
+
+secure-calendar-training@1.0.0
+│
+│   dependencies:
+├── axios@0.21.1
+│   Promise based HTTP client for the browser and node.js
+│   git+https://github.com/axios/axios.git
+│   https://github.com/axios/axios
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\axios@0.21.1\node_modules\axios
+├── lodash@4.17.19
+│   Lodash modular utilities.
+│   git+https://github.com/lodash/lodash.git
+│   https://lodash.com/
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\lodash@4.17.19\node_modules\lodash
+├── moment@2.29.1
+│   Parse, validate, manipulate, and display dates
+│   git+https://github.com/moment/moment.git
+│   https://momentjs.com
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\moment@2.29.1\node_modules\moment
+├── nanoid@3.1.25
+│   A tiny (108 bytes), secure URL-friendly unique string ID generator
+│   git+https://github.com/ai/nanoid.git
+│   https://github.com/ai/nanoid#readme
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\nanoid@3.1.25\node_modules\nanoid
+├── react@18.2.0
+│   React is a JavaScript library for building user interfaces.
+│   git+https://github.com/facebook/react.git
+│   https://reactjs.org/
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\react@18.2.0\node_modules\react
+├── react-dom@18.2.0
+│   React package for working with the DOM.
+│   git+https://github.com/facebook/react.git
+│   https://reactjs.org/
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\react-dom@18.2.0_react@18.2.0\node_modules\react-dom
+│
+│   devDependencies:
+├── @types/lodash@4.14.182
+│   TypeScript definitions for Lo-Dash
+│   git+https://github.com/DefinitelyTyped/DefinitelyTyped.git
+│   https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/lodash
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\@types+lodash@4.14.182\node_modules\@types\lodash
+├── @types/react@18.0.28
+│   TypeScript definitions for React
+│   git+https://github.com/DefinitelyTyped/DefinitelyTyped.git
+│   https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\@types+react@18.0.28\node_modules\@types\react
+├── @types/react-dom@18.0.11
+│   TypeScript definitions for React (react-dom)
+│   git+https://github.com/DefinitelyTyped/DefinitelyTyped.git
+│   https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\@types+react-dom@18.0.11\node_modules\@types\react-dom
+├── @vitejs/plugin-react@4.0.0
+│   git+https://github.com/vitejs/vite-plugin-react.git
+│   https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#readme
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\@vitejs+plugin-react@4.0.0_vite@4.3.9\node_modules\@vitejs\plugin-react
+├── typescript@5.0.4
+│   TypeScript is a language for application scale JavaScript development
+│   git+https://github.com/Microsoft/TypeScript.git
+│   https://www.typescriptlang.org/
+│   M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\typescript@5.0.4\node_modules\typescript
+└── vite@4.3.9
+    Native-ESM powered web dev build tool
+    git+https://github.com/vitejs/vite.git
+    https://github.com/vitejs/vite/tree/main/#readme
+    M502_SBAS\Unit_1\Uebungen\secure-calendar-training\node_modules\.pnpm\vite@4.3.9\node_modules\vite
+
+12 packages
